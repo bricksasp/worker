@@ -9,7 +9,7 @@ class UserController extends Common
 {
 
     /**
-     * @OA\Get(path="/user/bind",
+     * @OA\Get(path="/worker/user/bind",
      *   summary="websocket 请求事例说明",
      *   tags={"worker模块"},
      *   description="绑定socket 请求实例{'controller':'user','action':'bind','params':{'token':'用户登录标示','client_id':'websocket链接成功后返回'}} 连接websocket 实例 var ws = new WebSocket('ws://127.0.0.1:8282?X-Token=token');",
