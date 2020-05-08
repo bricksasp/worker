@@ -24,11 +24,11 @@ define('GLOBAL_START', 1);
 defined('YII_DEBUG') or define('YII_DEBUG', true);
 defined('YII_ENV') or define('YII_ENV', 'dev');
 
-require_once __DIR__ . '/../bricksasp-saas/vendor/autoload.php';
-require_once __DIR__ . '/../bricksasp-saas/vendor/yiisoft/yii2/Yii.php';
-require_once __DIR__ . '/../bricksasp-saas/config/bootstrap.php';
+require_once __DIR__ . '/../../basp-saas/vendor/autoload.php';
+require_once __DIR__ . '/../../basp-saas/vendor/yiisoft/yii2/Yii.php';
+require_once __DIR__ . '/../../basp-saas/config/bootstrap.php';
 
-$yii_config = require_once __DIR__ . '/../bricksasp-saas/config/web.php';
+$yii_config = require_once __DIR__ . '/../../basp-saas/config/web.php';
 
 (new yii\web\Application($yii_config))->init();
 
