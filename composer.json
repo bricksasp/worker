@@ -1,0 +1,24 @@
+{
+    "name": "bricksasp/worker",
+    "description": "bricksasp worker",
+    "keywords": ["yii2", "worker"],
+    "type": "yii2-extension",
+    "support": {
+        "issues": "https://github.com/bricksasp/worker/issues",
+        "source": "https://github.com/bricksasp/worker"
+    },
+    "authors": [
+        {
+            "name": "bricksasp",
+            "email": "649909457@qq.com"
+        }
+    ],
+    "require": {
+        "bricksasp/base": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "bricksasp\\worker\\": ""
+        }
+    }
+}
